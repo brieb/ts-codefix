@@ -1,0 +1,15 @@
+{
+  "name": "ts-codefix",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brieb/ts-codefix.git",
+  "author": "Brie <723547+brieb@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
