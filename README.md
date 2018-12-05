@@ -2,7 +2,7 @@
 
 Run [TypeScript codefixes](https://github.com/Microsoft/TypeScript/tree/master/src/services/codefixes) across all of your code.
 
-## Usage
+## Example Usage
 
 ```
 cd my-awesome-ts-project
