@@ -1,4 +1,8 @@
+/.prettierignore
+/.prettierrc
+/demo
 /src
+/types
 /ts-codefix-*.tgz
 /tsconfig.json
 /yarn.lock

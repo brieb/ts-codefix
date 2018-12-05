@@ -1,0 +1,7 @@
+{
+  "name": "demo",
+  "private": true,
+  "scripts": {
+    "fix": "../bin/ts-codefix.sh -f inferFromUsage"
+  }
+}

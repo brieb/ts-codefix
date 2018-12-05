@@ -1,15 +1,22 @@
 {
   "name": "ts-codefix",
   "version": "0.0.0",
-  "main": "index.js",
+  "bin": "./bin/ts-codefix.sh",
   "repository": "git@github.com:brieb/ts-codefix.git",
   "author": "Brie <723547+brieb@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "test": "tsc --noEmit",
+    "build": "rimraf lib && tsc",
     "prepack": "npm run build"
   },
-  "devDependencies": {
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ts-jest-runner": "0.0.1-3",
     "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "rimraf": "^2.6.2"
   }
 }
