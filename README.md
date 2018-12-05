@@ -2,6 +2,13 @@
 
 Run [TypeScript codefixes](https://github.com/Microsoft/TypeScript/tree/master/src/services/codefixes) across all of your code.
 
+## Usage
+
+```
+cd my-awesome-ts-project
+ts-codefix -f inferFromUsage
+```
+
 ## Example TypeScript Codefix IDs
 
 - addConvertToUnknownForNonOverlappingTypes
