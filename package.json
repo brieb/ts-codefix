@@ -1,6 +1,6 @@
 {
   "name": "ts-codefix",
-  "version": "0.0.1-0",
+  "version": "0.0.1-1",
   "bin": "./bin/ts-codefix.sh",
   "repository": "git@github.com:brieb/ts-codefix.git",
   "author": "Brie <723547+brieb@users.noreply.github.com>",
