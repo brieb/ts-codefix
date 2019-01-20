@@ -5,6 +5,7 @@ Run [TypeScript codefixes](https://github.com/Microsoft/TypeScript/tree/master/s
 ## Example Usage
 
 ```
+yarn global add ts-codefix
 cd my-awesome-ts-project
 ts-codefix -f inferFromUsage
 ```
