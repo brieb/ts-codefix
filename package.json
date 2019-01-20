@@ -13,7 +13,7 @@
   "dependencies": {
     "commander": "^2.19.0",
     "ts-jest-runner": "0.0.1-3",
-    "typescript": "^3.2.1"
+    "typescript": "^3.2.4"
   },
   "devDependencies": {
     "@types/node": "^10.12.12",
